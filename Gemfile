@@ -1,8 +1,6 @@
 source "http://rubygems.org"
 
-# TODO: remove when 1.0.0 or higher is out.
-gem 'spree', :git => 'git://github.com/spree/spree.git'
-gem 'sqlite3'
+gem 'spree', :git => 'git://github.com/hiq5/spree.git'
 
 group :test do
   gem 'faker'
