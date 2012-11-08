@@ -1,6 +1,7 @@
 source "http://rubygems.org"
 
-gem 'spree', :git => 'git://github.com/hiq5/spree.git'
+gem 'spree', :git => 'git://github.com/hiq5/spree.git',
+	branch: '754-address-states-isnt-precompiled'
 
 group :test do
   gem 'faker'
